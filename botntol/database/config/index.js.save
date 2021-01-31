@@ -1,0 +1,13 @@
+const mysql = require('mysql')
+
+const db = mysql.createConnection({
+    host: '0.0.0.0',
+    user: 'root',
+    password: 'root',
+    database: 'aex-bot'
+})
+
+db.connect(err => {
+    if (err) throw err
+    
+})
